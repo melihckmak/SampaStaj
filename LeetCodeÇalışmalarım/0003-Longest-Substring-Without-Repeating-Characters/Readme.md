@@ -1,4 +1,4 @@
-# 74. Search a 2D Matrix - Çözüm Notlarım
+# 03. Longest Substring Without Repeating - Çözüm Notlarım
 
 ## Soru Bizden Ne İstiyor?
 Bize verilen bir kelimenin içinde, hiçbir harfin tekrar etmediği yan yana duran en uzun parçayı bulmamız ve bunun uzunluğunu döndürmemiz isteniyor.
@@ -12,4 +12,4 @@ Fakat asıl aydınlanmayı algoritmanın çalışma şeklinde yaşadım. Ben ken
 
 ## Performans ve Karmaşıklık
 **Zaman Karmaşıklığı:** O(log(m * n)). Kendi kurduğum düzende liste içinde .index() ile arama yapıp listeyi dilimlediğim için bilgisayarı oldukça yormuşum. LeetCode istatistiklerinde çalışma zamanım 284 ms olarak ölçüldü ve tabloda diğer kullanıcıların oldukça gerisinde kaldığımı gördüm. Öğrendiğim Hash Tablosu mantığını kullansaydım arama süresini $O(1)$'e düşürerek genel hızı $O(N)$ seviyesine çıkarabilirmişim. 
-**Alan (Bellek) Karmaşıklığı:** O(1). Sistem kodumun 20.26 MB hafıza kullandığını ölçtü. Kod Stili Analizi: LeetCode sistemi kodumun yapısını "Mükemmel", okunabilirliğini ise "İyi" olarak değerlendirdi. Sadece ufak bir tavsiye olarak; daha iyi bir global okunabilirlik için Türkçe değişken isimleri yerine İngilizce isimlendirmeler kullanmamın daha iyi olacağını not aldım.
+**Alan Karmaşıklığı:** O(1). Sistem kodumun 20.26 MB hafıza kullandığını ölçtü. Kod Stili Analizi: LeetCode sistemi kodumun yapısını "Mükemmel", okunabilirliğini ise "İyi" olarak değerlendirdi. Sadece ufak bir tavsiye olarak; daha iyi bir global okunabilirlik için Türkçe değişken isimleri yerine İngilizce isimlendirmeler kullanmamın daha iyi olacağını not aldım.
