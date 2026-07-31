@@ -12,6 +12,6 @@ Buradaki asıl kilit nokta, düz listedeki hayali indeks numarasını, bilgisaya
 
 Böylece her adımda arama alanını tam ortadan ikiye bölerek, aradığım sayının sağda mı yoksa solda mı kaldığına baktım ve sınırları ona göre daralttım.
 
-## Performans ve Karmaşıklık (Complexity)
+## Performans ve Karmaşıklık
 **Zaman Karmaşıklığı:** O(log(m * n)). Arama uzayını her adımda yarıya indirdiğim için hedef sayıya çok hızlı ulaştım (LeetCode testlerinde 0 ms sürede çalıştı).
 **Alan (Bellek) Karmaşıklığı:** O(1). Matrisi kopyalamadım veya yeni bir liste oluşturmadım. Sadece 'sol', 'sag' ve 'orta' sınırları tutmak için birkaç küçük değişken kullandığım için ekstra hafıza harcamamış oldum.
